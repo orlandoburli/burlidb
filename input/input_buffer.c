@@ -8,4 +8,6 @@
 
 InputBuffer* new_input_buffer() {
     InputBuffer *inputBuffer = (InputBuffer *) malloc(sizeof(InputBuffer));
+
+    return inputBuffer;
 }
